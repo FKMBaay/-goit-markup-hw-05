@@ -320,6 +320,15 @@ Costumer Area
 .logo1costumer:focus svg  {
     fill: var(--iris);
 }
+.active {
+    color: var(--ocean)
+}
+.active::after {
+    content: " ";
+    display: blo;
+}
+
+
 
 
 
