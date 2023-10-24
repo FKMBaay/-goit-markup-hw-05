@@ -7,7 +7,6 @@
     --cornflower: #e7c9fc;
     --cloud: #f4f4fd;
     --lightslate: #8E8F99
-
 }
 
 header
@@ -32,14 +31,6 @@ header
     font-weight: 800;
     padding-left: 156px;
 
-}
-.lo {
-    font-family: raleway, sans serif;
-    color: #fffb02;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 800;
-    padding-left: 156px;
 }
 
 body {
@@ -320,15 +311,6 @@ Costumer Area
 .logo1costumer:focus svg  {
     fill: var(--iris);
 }
-.active {
-    color: var(--ocean)
-}
-.active::after {
-    content: " ";
-    display: blo;
-}
-
-
 
 
 
@@ -340,13 +322,11 @@ footer {
     padding: 101.5px;
     display: flex;
     text-decoration: none;
-    align-items: center;
+    align-items: center;}
 
-}
 footer .toraulin {
     padding-top: 0;
-    padding-bottom: 0;
-}
+    padding-bottom: 0;}
 footer .iconstwo {
     justify-content: left;
     text-decoration: none;
@@ -383,3 +363,18 @@ footer .iconstwo {
     justify-content: center;
 
 }
+
+.faceiconf {
+    background-color: var(--iris);
+    padding: 19px;
+    border-radius: 50%;
+    fill: var(--white);
+}
+.iconstwof {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+/* Portfolio Are  */
+
