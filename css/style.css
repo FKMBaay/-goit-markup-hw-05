@@ -430,16 +430,25 @@ footer .iconstwo {
 .projectimg {
     position: relative;
 }
+.lista:hover .projectimgcaption {
+    opacity: 1;
+    transform: translateY(0);
 
+}
 .projectimgcaption {
     position: absolute;
-    background: rgba(77, 90, 229, 1);
+    background: rgba(77, 90, 229, 0.8);
     color: var(--white);
     height: 100%;
     width: 100%;
     top: 0;
     left: 0;
+    opacity: 0;
+    transform: translateY(100%);
 }
+.projectimgcaption p {
+    padding: 40px 32px;
+} 
 
 
 .project-caption {
