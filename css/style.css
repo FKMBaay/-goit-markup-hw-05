@@ -390,20 +390,17 @@ footer .iconstwo {
     
 }
 .list {
+    display: flex;
     width: 100%;
     flex-wrap: wrap;
     text-align: left;
+    gap: 40px;  
+    padding-left: 0;
 
 }
 .lista {
-    display: flex;
-    width: 360px;
-    height: 420px;
-    padding-bottom: 0px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 32px;
-    flex-shrink: 0;
+    width: 30%;
+  
 }
 
 .project li img {
@@ -414,4 +411,8 @@ footer .iconstwo {
 .project-caption {
    text-align: left;
 
+}
+.baking {
+    text-align: left;
+    
 }
