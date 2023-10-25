@@ -271,7 +271,7 @@ Costumer Area
 .cosicon{
     flex: content;
     flex-wrap: wrap;
-   justify-content: center;
+    justify-content: center;
     gap: 24px;
     justify-content: center;
     border-radius: 4px;
@@ -378,3 +378,40 @@ footer .iconstwo {
 
 /* Portfolio Are  */
 
+
+.projectbut {
+    text-align: center;
+ }
+.project {
+    display: flex;
+    flex: content;
+    flex-wrap: wrap;
+    gap: 40px;
+    
+}
+.list {
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: left;
+
+}
+.lista {
+    display: flex;
+    width: 360px;
+    height: 420px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex-shrink: 0;
+}
+
+.project li img {
+    width: 100%;
+}
+
+
+.project-caption {
+   text-align: left;
+
+}
