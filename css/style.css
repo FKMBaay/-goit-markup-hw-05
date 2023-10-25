@@ -312,6 +312,27 @@ Costumer Area
     fill: var(--iris);
 }
 
+.active {
+    color: var(--ocean);
+}
+.active::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 2px;
+    background-color: var(--IRIS );
+    position: relative;
+    top: 15px;
+}
+
+
+
+
+
+
+
+
 
 
 /* FOOTER AREA  */
@@ -399,12 +420,25 @@ footer .iconstwo {
 
 }
 .lista {
-    width: 30%;
+    width: 360px;
   
 }
 
 .project li img {
     width: 100%;
+}
+.projectimg {
+    position: relative;
+}
+
+.projectimgcaption {
+    position: absolute;
+    background: rgba(77, 90, 229, 1);
+    color: var(--white);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
 
