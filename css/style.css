@@ -421,6 +421,7 @@ footer .iconstwo {
 }
 .lista {
     width: 360px;
+    overflow: hidden;
   
 }
 
@@ -429,6 +430,7 @@ footer .iconstwo {
 }
 .projectimg {
     position: relative;
+    overflow: hidden;
 }
 .lista:hover .projectimgcaption {
     opacity: 1;
@@ -445,6 +447,8 @@ footer .iconstwo {
     left: 0;
     opacity: 0;
     transform: translateY(100%);
+    transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .projectimgcaption p {
     padding: 40px 32px;
