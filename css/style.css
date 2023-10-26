@@ -316,7 +316,7 @@ Costumer Area
     color: var(--ocean);
 }
 .active::after {
-    content: "";
+    content: " ";
     display: block;
     height: 4px;
     width: 100%;
@@ -325,6 +325,8 @@ Costumer Area
     position: relative;
     top: 15px;
 }
+
+
 
 
 
