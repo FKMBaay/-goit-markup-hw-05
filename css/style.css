@@ -9,7 +9,11 @@
     --lightslate: #8E8F99
 }
 
-header
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .logo {
     color: #2E2F42;
@@ -42,6 +46,7 @@ body {
     padding-left: 0;
     display: flex;
     gap: 40px;
+    text-align: left; 
 
 } 
 .toraulin {
@@ -52,9 +57,12 @@ body {
     padding-bottom: 122px;
     gap: 40px;
     align-items: center;
-    text-align: center; 
+    text-align: left; 
     justify-content: center;
     background-color: cloud;
+}
+.textdesign {
+    text-align: left;
 }
 
 
@@ -151,7 +159,7 @@ button {
 }
 button:hover {
     color:blue;
-    background-color: aqua;
+    background-color: rgb(94, 142, 246);
    
 }
 
@@ -181,6 +189,7 @@ h3 {
     font-weight: 700;
     text-align: center;
 }
+
 .team {
     color: cloud#2E2F42;
     font-family: roboto, sans serif;
@@ -188,8 +197,8 @@ h3 {
     font-style: normal;
     font-weight: 700;
     text-align: center;
-    
-    padding-top: 120px;}
+    padding-top: 120px;
+}
 
 .logo2 span {
     color: var(--IRIS, #4D5AE5);
@@ -322,6 +331,7 @@ Costumer Area
     width: 100%;
     border-radius: 2px;
     background-color: var(--IRIS );
+    margin-top: 15px;
     position: relative;
     top: 15px;
 }
@@ -399,19 +409,48 @@ footer .iconstwo {
     gap: 10px;
 }
 
+
+
+
+
+
+
 /* Portfolio Are  */
+
 
 
 .projectbut {
     text-align: center;
- }
-.project {
-    display: flex;
-    flex: content;
-    flex-wrap: wrap;
-    gap: 40px;
-    
+    border-radius: 4px;
 }
+.buttonf {
+    
+    text-align: center;
+/* Button Text */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.64px;
+    padding: 12px 24px;
+    margin: 70px 50px;
+    color: var(--iris);
+    border-radius: 4px;
+    background: var(--CLOUD, #F4F4FD);
+    border: none;
+    cursor: pointer;  
+    padding: 16px 32px; 
+}
+.buttonf:hover {
+    color: white;
+}
+.unof {
+    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--WHITE, #FFF);
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+ }
+
 .list {
     display: flex;
     width: 100%;
@@ -419,6 +458,9 @@ footer .iconstwo {
     text-align: left;
     gap: 40px;  
     padding-left: 0;
+    align-items: center;
+    text-align: center; 
+    justify-content: center;
 
 }
 .lista {
@@ -429,6 +471,7 @@ footer .iconstwo {
 
 .project li img {
     width: 100%;
+    display: block;
 }
 .projectimg {
     position: relative;
@@ -464,4 +507,8 @@ footer .iconstwo {
 .baking {
     text-align: left;
     
+}
+.container {
+   align-items: center;
+
 }
