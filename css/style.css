@@ -334,7 +334,10 @@ Costumer Area
     background-color: var(--IRIS );
     margin-top: 15px;
     position: relative;
-    top: 15px;
+    left: 0;
+    
+
+   
 }
 
 
